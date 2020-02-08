@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+
+}
+img{
+	max-width: 100%;
+	display: block; 
+
+}
+body{
+
+}
+header{
+		background-image: url(https://new-macdigital.squarespace.com/s/mac_banner_final.svg);
+	    min-height: 100vh;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+}
+
+.container{
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+    padding-top: 15px;
+}
+nav a{
+    color: #EE3D49;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.heading{
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 100px;}
+.heading h1{
+    font-size: 60px;
+    color: #1565c0;
+    margin-bottom: 100px;
+}
+.heading a{display: inline-block;background: #1565c0;color: #fff;text-decoration: none;text-transform: uppercase;padding: 15px 45px;}
+
+.clientlogos-section{}
+.clientlogos-section ul{}
+.clientlogos-section ul li{
+    display: inline-block;
+    width: 10%;
+}
+.clientlogos-section ul li a{}
+.clientlogos-section ul li a img{}
+
+.feature-section{
+	padding: 100px 0;
+	background-color: #e3f2fd;
+	}
+.feature{width: 33.33%;float: left;padding: 15px;}
+.feature-box1{
+	background-image: url(../images/Macdigital+Strategy.png);
+	padding: 60px 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease;
+}
+
+.feature-box2{
+	background-image: url(../images/Mac+Digital+Content.png);
+	padding: 60px 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease;
+}
+.feature-box3{
+	background-image: url(../images/Macdigital+Training.png);
+	padding: 60px 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.3s ease;
+}
+.feature h2{
+    font-size: 30px;
+    color: #1565c0;
+}
+.feature p{
+    color: #1565c0;
+    font-size: 16px;
+}
+.feature a{
+    color: #ee3d49;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0 1px;
+    border-bottom: 1px solid #ee3d4987;
+}
+
+.feature div:hover{	
+	box-shadow: 0 5px 15px #4c4b4b66;
+
+}
+
+
+.case-studies-section{}
+.head{}
+.head span{}
+.head h3{}
+
+
+
+.case-studies{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.case{
+	margin-bottom: 30px;
+	background: #fff;
+	transition: all 0.3s ease;
+
+}
+.case img{
+	width: 100%;
+}
+.case .content{
+	padding: 20px;
+}
+.case .content span{
+	color;#999;
+	font size:13px;
+}
+.case .content h3{
+	 color: #226ec3;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+.case div:hover{	
+	box-shadow: 0 5px 15px #4c4b4b66;}
+.case .content a{
+	color: #ee3d49;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0 1px;
+    border-bottom: 1px solid #ee3d4987;
+}
